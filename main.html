@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Map To Learn The Basics Of Computer Graphics Without Tutorial !!!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        h2 {
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .chapter {
+            font-weight: bold;
+        }
+
+        .sub-chapter {
+            font-style: italic;
+        }
+
+        .problem {
+            font-weight: bold;
+        }
+
+        .solution {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Road Map To Learn The Basics Of Computer Graphics Without Tutorial !!!</h1>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <ul>
+            <li><span class="chapter">1 Introduction</span>
+                <ul>
+                    <li><span class="sub-chapter">Why is this?</span>
+                        <p>When you start learning anything, you "Must" start with the theoretical part, then move to do the practical part. However, sometimes you can learn to do things without or with the minimum theoretical part, and this is what this paper is about.</p>
+                    </li>
+                    <li><span class="sub-chapter">For Who?</span>
+                        <p>For 2 main types of people:
+                            <ol>
+                                <li>People Who want to enter game development or any field that requires dealing with graphics.</li>
+                                <li>People Who want to develop their problem-solving skills and their logic and apply their knowledge of math to the real world.</li>
+                            </ol>
+                        </p>
+                    </li>
+                    <li><span class="sub-chapter">What Makes this Road Map Unique?</span>
+                        <p>You will not find interesting tricks, and you will not know all the basics of 2D and 3D programming. Actually, I recommend for you to start another tutorial after this road map.</p>
+                    </li>
+                    <li><span class="sub-chapter">So, What Will You Get?</span>
+                        <p>This road map is designed to guide you to reinvent the wheel by giving new problems and projects of gradual difficulty that you learn from and develop your logic and problem-solving skills and a little bit of your knowledge and math skills.</p>
+                    </li>
+                    <li><span class="sub-chapter">What Level of Math is Required to Learn from this Roadmap?</span>
+                        <p>You are not required to be good at solving academic math exercises, but what you need is an intuitive understanding of mathematical concepts, and I will try to put some resources for that.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Chapter 1: Drawing Point</h2>
+        <ul>
+            <li><span class="chapter">2 Chapter 1: Drawing Point</span>
+                <p>This chapter will be on the terminal, so you need only to know programming basics. The examples will be on C++, but you can use any language to achieve the same thing.</p>
+            </li>
+            <li><span class="problem">2.1 Problem 1: Building Screen Struct</span>
+                <p>To show our graphics on the terminal we need to build our Screen, the screen have Rows and Colms number that represent the width and the height of the screen by the size of one character on the terminal.</p>
+            </li>
+            <li><span class="problem">2.2 Problem 2: Building Point Struct</span>
+                <p>We will name our Point class stPoint to avoid confusion, and st will be the prefix of all our structs (If you are using languages like C#, do not use struct because it is a Value Type, and you cannot use pointers to get its address, use class instead).</p>
+                <p><span class="sub-chapter">The stPoint must contain:</span></p>
+                <ul>
+                    <li>Members: X and Y coordinates, let it be integers.</li>
+                    <li>Functions: draw, move, rotate.</li>
+                </ul>
+                <p>X is the horizontally position of the point on the screen (the distance between the left edge of the screen and the point). Y is the vertical position of the point on the screen (the distance between the up edge of the screen and the point).</p>
+                <p>Drawing the point will be on the terminal, and how you do this will depend on you. Move function must have 2 parameters dx and dy. If you hate math, don’t worry, this just means that you will change the position of the point by dx on X axis (horizontally) and by dy on Y axis (vertically). The Rotation is the hardest part of this chapter; the rotate function gets 2 parameters, the angle of the rotation and the center of rotation point (the point around which it rotates).</p>
+                <p>To implement the function void rotate(float angle, stPoint center), you must have a good intuition of Trigonometry and this is a good resource for that.</p>
+                <p>Try to solve this by yourself than see the solution.</p>
+                <p><span class="solution">The Solution</span></p>
+                <p>Coming Soon</p>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
