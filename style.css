@@ -3,13 +3,21 @@ body, p {
 }
 
 body {
+    background-color: rgb(50,52,55);
+    color: rgb(206,206,206); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
@@ -39,9 +47,11 @@ li {
 
 .chapter {
     font-weight: bold;
-    padding: 20px;
+    padding: 10px;
     font-size: 32px;
     text-decoration: underline;
+    color:rgb(212,171,23);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .sub-chapter {
@@ -50,6 +60,7 @@ li {
     font-size: 20px;
     text-decoration: underline;
     padding: 20px;
+    color:rgb(212,171,23);
 }
 
 .problem {
