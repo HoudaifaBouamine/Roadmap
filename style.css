@@ -4,30 +4,30 @@
     letter-spacing: 0.5%;
     line-height: 27px;
     font-weight: 400;
-
+    color: rgb(206,206,206);
 }
 
 
 body{
-    background-color: white;
+    background-color: rgb(40,40,40)
 }
 
 a:link{
     text-decoration: none;
-    color: black;
+    color: rgb(206,206,206);
 }
 a:hover{
     text-decoration: none;
-    color: black;
+    color: rgb(206,206,206);
 }
 
 a:active{
     text-decoration: none;
-    color: black;
+    color: rgb(206,206,206);
 }
 a:visited{
     text-decoration: none;
-    color: black;
+    color: rgb(206,206,206);
 }
 
 p{
@@ -36,7 +36,7 @@ p{
 }
 
 .top-menu {
-            background-color: #BBB;
+            background-color:  rgb(57,57,57);
             position: fixed;
             top: 0;
             left: 0;
@@ -55,7 +55,7 @@ p{
 
 .top-menu a:hover {
             background-color: #ddd;
-            color: #BBB;
+            color: rgb(32, 32, 32);
         }
 
 
@@ -71,6 +71,7 @@ h1{
     font-size: 42px;
     font-weight: 900;
     line-height: 65px;
+
 }
 
 h2{
@@ -100,7 +101,7 @@ header{
 }
 
 nav{
-    background-color: #BBB;
+    background-color: rgb(50,50,50);
     width: 15%;
 
     padding: 20px;
@@ -130,6 +131,16 @@ li{
 
 .item-lvl1 , .item-lvl1 a{
     font-size: 13px;
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+.item-lvl1:hover, .item-lvl1 a:hover
+{
+    font-size: 14px;
+    color:rgb(230,230,230);
+    background-color: rgb(70,70,70);
 }
 
 .mainsection{
@@ -171,32 +182,35 @@ li{
     justify-content: flex-end;
 }
 
-.button{
-    background-color: #AAA;
-    color: black;
+.btn_prev{
+    background-color: #09d736;
+    color: rgb(31, 144, 6);
     text-decoration: none;
-    font-size: 33px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 10;
     line-height: 52px;
-    padding: 5px;
-
+    padding-top:7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
-.button:hover{
-    background-color: #CCC;
-    color:black;
-
-    font-size: 33px;
-    font-weight: 600;
+.btn_Next{
+    background-color: #09d736;
+    color: rgb(31, 144, 6);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 10;
     line-height: 52px;
+    padding-top:7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    cursor: pointer;
 }
-
-.button:active{
-    background-color: #888;
-    color: black;
-}
-
 
 
 footer{
