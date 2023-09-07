@@ -10,77 +10,90 @@
 <body>
 
     <div class="top-menu">
-        <a href="#home">Home</a>
-        <a href="#roadmaps">RoadMaps</a>
-        <a href="#others">Others</a>
+        <a  href="#home" class="button">Home</a>
+        <a  href="#roadmaps" class="button">Roadmaps</a>
+        <a  href="#others" class="button">Others</a>
+        
     </div>
 
     <section class="mainsection">
-        <nav class="side">
+        
+
+        <nav class="h-layout" id="side">
             <ul class="list-lvl0">
-                <li class="item-lvl0">Computer Graphics</li>
+                <li class="item-lvl0"><a href="index.html">Computer Graphics</a></li>
+                <hr>
                 <li>
-                    <ul>
-                        <li class="item-lvl1"> <a href="#introduction">Introduction</a></li>
-                        <li class="item-lvl1"> <a href="#drawing-point">Drawing Point</a></li>
-                        <li class="item-lvl1"> <a href="#LoremIpsum">Lorem Ipsum</a></li>
+                    <ul id="computer-graphic">
+                       <li class="item-lvl1" > <a href="index.html">Introduction</a></li>
+                        <li class="item-lvl1"> <a href="page2.html">Drawing Point</a></li>
+                        <li class="item-lvl1"> <a href="page3.html">Introduction</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
 
-        <section class="main-content">
-            <header>
-                
-                <h1 class="title">Computer Graphics Road Map </h1>
-                <p class="description">Road Map To Learn The Basics Of Computer Graphics Without Tutorial</h3>
+        <section class="h-layout main-content" id="maincontent">
+            <header id="heading">
+                <h1 class="title">Computer Graphics Roadmap </h1>
+                <p class="description">Roadmap To Learn The Basics Of Computer Graphics Without Tutorial</p>
             </header>
+
+            
+            
 
             <section class="intro">
 
-            <h2 class="chapter" id="introduction">Introduction</p>
-    
+            <h2 class="chapter" id="introduction">Introduction</h2>
+
+            
             <ul>
-                <li><span class="sub-chapter">Why is this?</span>
+                <li><h3>Why is this?</h3></li>
                     <p>When you start learning anything, you "Must" start with the theoretical part, then move to do the practical part. However, sometimes you can learn to do things without or with the minimum theoretical part, and this is what this paper is about.</p>
                 </li>
-                <li><span class="sub-chapter">For Who?</span>
+                <li><h3>For Who?</h3></li>
                     <p> <i>For 2 main types of people :</i>
                         <ol>
-                            <li>People Who want to enter game development or any field that requires dealing with graphics.</li>
-                            <li>People Who want to develop their problem-solving skills and their logic and apply their knowledge of math to the real world.</li>
+                            <li><p>People Who want to enter game development or any field that requires dealing with graphics.</p></li>
+                            <li><p>People Who want to develop their problem-solving skills and their logic and apply their knowledge of math to the real world.</p></li>
                         </ol>
                     </p>
                 </li>
-                <li><span class="sub-chapter">What Makes this Road Map Unique?</span>
+                <li><h3>What Makes this Road Map Unique?</h3></li>
                     <p>You will not find interesting tricks, and you will not know all the basics of 2D and 3D programming. Actually, I recommend for you to start another tutorial after this road map.</p>
                 </li>
-                <li><span class="sub-chapter">So, What Will You Get?</span>
+                <li><h3>So, What Will You Get?</h3></li>
                     <p>This road map is designed to guide you to reinvent the wheel by giving new problems and projects of gradual difficulty that you learn from and develop your logic and problem-solving skills and a little bit of your knowledge and math skills.</p>
                 </li>
-                <li><span class="sub-chapter">What Level of Math is Required to Learn from this Roadmap?</span>
+                <li><h3>What Level of Math is Required to Learn from this Roadmap?</h3></li>
                     <p>You are not required to be good at solving academic math exercises, but what you need is an intuitive understanding of mathematical concepts, and I will try to put some resources for that.</p>
                 </li>
             </ul>
 
+            </section>
+
             <div class="controlers" id="controlers0">
                 
-                <div><a class="button" href="page2.html">Next</a></div>
-
+                <a href="page2.html" class="button">Next</a>
+    
             </div>
 
-            </section>
+            <footer>
+                <p>Contact Us</p>
+                <p>Reviews</p>
+                <p>Terms Of Use</p>
+            </footer>
+        
 
         </section>
 
+        <div class="h-layout">
+
+        </div>
+
     </section>
     
-
     
-    <footer>
-        <p>Contact Us</p>
-        <p>Reviews</p>
-        <p>Terms Of Use</p>
-    </footer>
+    <script src="script.js" ></script>
 </body>
 </html>
