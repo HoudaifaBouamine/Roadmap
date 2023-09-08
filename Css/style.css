@@ -12,6 +12,9 @@ body{
     background-color: rgb(40,40,40)
 }
 
+
+
+
 a:link{
     text-decoration: none;
     color: rgb(206,206,206);
@@ -30,28 +33,38 @@ a:visited{
     color: rgb(206,206,206);
 }
 
+
 p{
     opacity: 0.8;
     text-indent: 20px;
+    transition: 0.1s;
+}
+p::selection , h1::selection   {
+    background-color: #09d736;
+    color: white;
+    opacity: 1;
 }
 
 .top-menu {
-            background-color:  rgb(57,57,57);
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000;
-        }
+    background-color:  rgb(57,57,57);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    box-shadow:1px 1px 20px 1px #121212;
+
+}
 
 .top-menu a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
 
 .top-menu a:hover {
             background-color: #ddd;
@@ -107,7 +120,6 @@ nav{
     padding: 20px;
     padding-left: 0px;
     margin-top: 50px;
-
     position: fixed;
     left: 0;
     top: 0;
@@ -125,20 +137,25 @@ li{
 }
 
 .item-lvl0{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
+    margin-bottom: 3px;
 }
 
-.item-lvl1 , .item-lvl1 a{
-    font-size: 13px;
-    padding-left: 10px;
+.item-lvl1 {
     text-align: center;
-
 }
 
-.item-lvl1:hover, .item-lvl1 a:hover
-{
-    font-size: 14px;
+
+.item-lvl1 a {
+    font-size: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.item-lvl1:hover {
     color:rgb(230,230,230);
     background-color: rgb(70,70,70);
 }
@@ -182,27 +199,12 @@ li{
     justify-content: flex-end;
 }
 
-.btn_prev{
+.btn_prev , .btn_Next{
     background-color: #09d736;
-    color: rgb(31, 144, 6);
+    color: rgb(165, 197, 157);
     text-decoration: none;
     font-size: 20px;
-    font-weight: 10;
-    line-height: 52px;
-    padding-top:7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.btn_Next{
-    background-color: #09d736;
-    color: rgb(31, 144, 6);
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 10;
+    font-weight: 800;
     line-height: 52px;
     padding-top:7px;
     padding-bottom: 7px;
@@ -222,3 +224,11 @@ footer{
     margin-left: 15%;
 }
 
+/*the links in hover should be like this  */
+
+footer p:hover {
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+    opacity: 1;
+}
